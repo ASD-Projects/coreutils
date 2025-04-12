@@ -1,0 +1,12 @@
+[package]
+name = "uname"
+version = "1.0.0"
+edition = "2021"
+authors = ["AnmiTaliDev"]
+license = "Apache-2.0"
+keywords = ["cli", "system", "utility", "uname", "coreutils"]
+categories = ["command-line-utilities", "os"]
+
+[dependencies]
+clap = "4.4"
+libc = "0.2"

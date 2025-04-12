@@ -1,0 +1,13 @@
+[package]
+name = "whoami"
+version = "1.0.0"
+edition = "2021"
+authors = ["AnmiTaliDev"]
+description = "A fast, flexible whoami utility for ASD CoreUtils"
+license = "Apache-2.0"
+keywords = ["cli", "system", "utility", "whoami", "coreutils"]
+categories = ["command-line-utilities", "os"]
+
+[dependencies]
+clap = "4.4"
+libc = "0.2"

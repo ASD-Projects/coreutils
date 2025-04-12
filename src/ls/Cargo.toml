@@ -1,0 +1,11 @@
+[package]
+name = "ls"
+version = "1.0.0"
+edition = "2021"
+description = "A flexible and fast ls utility from ASD CoreUtils"
+authors = ["AnmiTaliDev"]
+
+[dependencies]
+clap = "2.33"
+chrono = "0.4"
+colored = "2.0"
